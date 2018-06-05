@@ -8,8 +8,8 @@
                 <li>
                     {{this.burger_name}}
 
-                    <form action="/api/burgers/?_method=PUT" method="POST">
-                        {{!-- <input type="hidden" name="devoured" value="true"> --}}
+                    <form action="/api/burgers/{{this.id}}?_method=PUT" method="POST">
+                        <input type="hidden" name="devoured" value="true">
                         <button class="btn btn-outline-light eatme" type="submit">Eat Me!</button>
                     </form>
 
