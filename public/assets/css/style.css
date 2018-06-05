@@ -1,0 +1,33 @@
+body {
+    height: 100%;
+    background: 
+    linear-gradient(
+        rgba(3, 3, 3, 0.25),
+        rgba(3, 3, 3, 0.25)
+    ), 
+    url(../images/armando-ascorve-morales-155473-unsplash.jpg);
+    background-size: cover;
+}
+
+.container {
+    color: white;
+    margin-top: 30px;
+}
+
+#eatBurger,
+#devourBurger,
+#addBurger {
+    background: 
+    linear-gradient(
+        rgba(3, 3, 3, 0.25),
+        rgba(3, 3, 3, 0.25)
+    );
+    padding: 20px;
+    margin-top: 20px;
+}
+
+li,
+label {
+    font-size: 20px;
+    list-style-type: none;
+}
