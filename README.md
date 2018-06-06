@@ -20,5 +20,5 @@ export DBPW=yourpassword
 ```
 source .env
 make reset_db
-
-Now, open the local application on port 8080 at the URL: http://localhost:8080/.
+```
+* Open the local application on port 8080 at the URL: http://localhost:8080/.
